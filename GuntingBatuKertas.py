@@ -25,7 +25,7 @@ while exit == False:
 
     
     #kita membuat keadaan if jika user memilih gunting
-    if user_input == "Gunting":
+    if (user_input == "Gunting" or user_input == "gunting"):
         if computer_input == "Gunting":
             print("Anda Memilih Gunting")
             print("Computer Memilih Gunting")
@@ -44,7 +44,7 @@ while exit == False:
             user_point += 1
     
     #kita membuat keadaan if jika user memilih Batu
-    if user_input == "Batu":
+    if (user_input == "Batu" or user_input == "batu"):
         if computer_input == "Gunting":
             print("Anda Memilih Batu")
             print("Computer Memilih Gunting")
@@ -63,7 +63,7 @@ while exit == False:
             computer_point += 1
     
     #kita membuat keadaan if jika user memilih Kertas
-    if user_input == "Kertas":
+    if (user_input == "Kertas" or user_input == "kertas"):
         if computer_input == "Gunting":
             print("Anda Memilih Kertas")
             print("Computer Memilih Gunting")
