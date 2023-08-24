@@ -14,7 +14,7 @@ while exit == False:
     #kita memakai modul random untuk membuat komputer memilih pilihannya
 
     #kita membuat if jika user memilih untuk exit atau keluar
-    if user_input != "Gunting" and user_input != "Batu" and user_input != "Kertas":
+    if user_input != "Gunting" and user_input != "Batu" and user_input != "Kertas" and user_input != "gunting" and user_input != "batu" and user_input != "kertas":
         print("Input Tidak Valid!")
 
     if user_input == "exit":
